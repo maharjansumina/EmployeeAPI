@@ -14,12 +14,14 @@
 
     <EditText
         android:id="@+id/etSalary"
-        android:hint="Enter Employee No"
+        android:hint="Enter Employee Salary"
+        android:inputType="number"
         style="@style/EditTextDesign"/>
 
     <EditText
         android:id="@+id/etAge"
-        android:hint="Enter Employee No"
+        android:hint="Enter Employee Age"
+        android:inputType="number"
         style="@style/EditTextDesign"/>
 
     <Button
